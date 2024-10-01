@@ -32,7 +32,7 @@ const Header = () => {
       </Button>
 
       <Link to="/signin">
-         <Button gradientDuoTone="purpleToBlue"> Sign In </Button>
+         <Button gradientDuoTone="purpleToBlue" outline> Sign In </Button>
       </Link>
       </div>
       <Navbar.Toggle />
@@ -45,7 +45,7 @@ const Header = () => {
         <Navbar.Link active={path === "/about"} as={"div"}>
           <Link to="/about">
             About
-          </Link>x
+          </Link>
         </Navbar.Link>
         <Navbar.Link active={path === "/projects"} as={"div"}>
           <Link to="/projects">
